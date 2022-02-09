@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Ebiblioteka</string>
+    <string name="logo_name">Ebiblioteka</string>
+    <string name="slogan_name">Vas mali kutak!</string>
+    <string name="powered_by">Kosta Divnic</string>
+
+
+    <!--stringovi za dobrodoslicu-->
+
+
+    <!--titlovi-->
+
+    <string name="first_slide_title">Pretrazite Vasu Knjigu</string>
+    <string name="second_slide_title">Veliki Izbor Knjiga</string>
+    <string name="third_slide_title">Dodajte Knjige Na Vasu Listu</string>
+    <string name="fourth_slide_title">Uzivajte u Citanju</string>
+
+    <!--deskripcija-->
+    <string name="first_slide_desc">..... </string>
+    <string name="second_slide_desc">......</string>
+    <string name="third_slide_desc">......</string>
+    <string name="fourth_slide_desc">......</string>
+
+    <!--dugmad-->
+    <string name="skip_btn">Preskoci</string>
+    <string name="next_btn">Sledece</string>
+    <string name="let_get_started">Zapocnimo</string>
+
+
+    <!--dashboard stringovi-->
+
+    <string name="Action">Akcioni</string>
+    <string name="Love">Ljubavni</string>
+    <string name="History">Istorija</string>
+    <string name="Drama">Drama</string>
+    <string name="Education">Edukativni</string>
+
+
+    <string name="featured_books">Izdvojene knjige</string>
+    <string name="featured_books_description">Sve izdvojene knjige koje ce vam se dopasti</string>
+    <string name="most_viewed_books">Najcitanije</string>
+    <string name="categories">Kategorije</string>
+    <string name="view_all">Pogledaj sve</string>
+    <string name="search_text">Pretrazi</string>
+
+
+    <!--Podmeni stringovi gornji meni-->
+
+    <string name="home">POCETNA</string>
+    <string name="search">PRETRAGA</string>
+    <string name="all_categories">SVE KATEGORIJE</string>
+    <string name="add_wish_list">DODAJ NA LISTU ZELJA</string>
+    <string name="login">Uloguj se</string>
+    <string name="profile">Moj profil</string>
+    <string name="logout">Izloguj se</string>
+    <string name="share">Delite</string>
+    <string name="rate_us">Ocenite nas</string>
+
+
+    <!--kategorije strana-->
+    <string name="expand_all">RASIRI SVE</string>
+
+    <!--LoginSignup strana-->
+
+    <string name="sign_up">Registruj se</string>
+    <string name="sign_heading">Sve knjige na jednom mestu</string>
+    <string name="sign_tag_line">Prosirite vasu kolekciju knjiga,koriscenjem nasih online usluga!</string>
+    <string name="how_we_work">Kako radi Ebiblioteka?</string>
+    <string name="remember_me">Zapamti me</string>
+    <string name="forget_password">Zaboravio sam Lozinku</string>
+    <string name="enter_username">Unesite Korisnicko ime</string>
+    <string name="enter_password">Unesite Lozinku</string>
+    <string name="create_account">Napravi nalog</string>
+    <string name="enter_full_name">Ime i Prezime</string>
+    <string name="enter_email">Vas Email</string>
+    <string name="enter_phone_number">Broj Telefona</string>
+
+
+</resources>

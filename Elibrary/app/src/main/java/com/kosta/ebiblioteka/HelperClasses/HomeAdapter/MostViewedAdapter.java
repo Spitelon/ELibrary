@@ -1,0 +1,61 @@
+package com.kosta.ebiblioteka.HelperClasses.HomeAdapter;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
+
+import com.kosta.ebiblioteka.R;
+
+import java.util.ArrayList;
+
+public class MostViewedAdapter extends RecyclerView.Adapter<MostViewedAdapter.MostViewedViewHolder> {
+
+    ArrayList<MostViewedHelperClass> mostViewedBooks;
+
+    public MostViewedAdapter(ArrayList<MostViewedHelperClass> mostViewedBooks) {
+        this.mostViewedBooks = mostViewedBooks;
+    }
+
+    @NonNull
+    @Override
+    public MostViewedViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.most_viewed_book_design, parent, false);
+        MostViewedViewHolder mostViewedViewHolder = new MostViewedViewHolder(view);
+        return mostViewedViewHolder;
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull MostViewedViewHolder holder, int position) {
+        MostViewedHelperClass helperClass = mostViewedBooks.get(position);
+
+        holder.image.setImageResource(helperClass.getMv_image());
+        holder.title.setText(helperClass.getMv_title());
+        holder.desc.setText(helperClass.getMv_desc());
+    }
+
+    @Override
+    public int getItemCount() {
+        return mostViewedBooks.size();
+    }
+
+    public static class MostViewedViewHolder extends RecyclerView.ViewHolder {
+
+        ImageView image;
+        TextView title,desc;
+
+        public MostViewedViewHolder(@NonNull View itemView) {
+            super(itemView);
+
+            image = itemView.findViewById(R.id.mv_image);
+            title = itemView.findViewById(R.id.mv_title);
+            desc = itemView.findViewById(R.id.mv_desc);
+
+        }
+    }
+}
